@@ -1,0 +1,51 @@
+.thirdpage{
+  &_container{
+    display: flex;
+    align-items: center;
+    background: #19191f;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    &_base{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &_leftside{
+        &_profile{
+          &_image{
+
+          }
+        }
+      }
+      &_rightside{
+        width: 50%;
+        &_about{
+          &_image{
+
+          }
+          &_text{
+
+          }
+        }
+        &_name{
+          &_text{
+
+          }
+        }
+        &_list{
+          &_opinion{
+            display: flex;
+            &_image{
+
+            }
+            &_text{
+
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.secondpage {
+
+  &_container {
+    display: flex;
+    align-items: center;
+    background: #19191f;
+    width: 100%;
+
+    justify-content: center;
+    &_base {
+display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      &_expirience {
+        display: flex;
+        width:100%;
+        min-width: 30%;
+        justify-content: center;
+        align-items: center;
+        max-width: 30%;
+        padding-bottom: 20px;
+        &_container {
+          border-radius: 10px;
+          border: #7B4AE2 solid 1px;
+          margin-left: 30px;
+          width: 100%;
+          min-width: 200px;
+          max-width: 300px;
+          margin-right: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          &_text{
+            display: flex;
+            height: 100%;
+            min-height: 10%;
+            max-height: 10%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &_subititle {
+
+            }
+
+            &_title {
+
+            }
+          }
+          &_image {
+
+          }
+
+
+        }
+      }
+
+      &_informations {
+        display: flex;
+        background: #7B4AE2;
+        width:100%;
+        min-width: 40%;
+        max-width: 30%;
+        justify-content: center;
+        height: 100%;
+        max-height: 50px;
+        min-height: 70px;
+        &_container {
+          margin-left: 30px;
+          margin-right: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          &_text{
+            display: flex;
+            height: 100%;
+            min-height: 20%;
+            max-height: 20%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &_title {
+
+            }
+
+            &_language {
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
