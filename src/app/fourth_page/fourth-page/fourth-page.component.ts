@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FourthPageComponent {
   mysaving = 'assets/mysaving.png';
+  background = 'assets/shapes.png';
 }

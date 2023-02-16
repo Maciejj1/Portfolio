@@ -1,5 +1,5 @@
-.ninepage{
-  &_container{
+.ninepage {
+  &_container {
     display: flex;
     align-items: center;
     background: #19191f;
@@ -7,33 +7,66 @@
     height: 100vh;
     justify-content: center;
     flex-direction: column;
-    &_base{
+
+    &_base {
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      &_namepage{
+
+      &_namepage {
+        background: rgba(123, 74, 226, 0.1);
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_title {
+
+          z-index: 2;
+          color: #7B4AE2;
+          margin: 0;
+
+        }
+      }
+
+      &_title {
+
+        z-index: 2;
+        color: #F1F1F1;
+        margin: 0;
 
       }
-      &_title{
 
+      &_frontend {
+color: #F1F1F1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &_icons {
+img{
+  padding: 15px;
+}
+        }
       }
-      &_frontend{
 
+      &_mobile {
+        color: #F1F1F1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         &_icons{
-
+          img{
+            padding: 15px;
+          }
         }
-      }
-      &_mobile{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
       }
     }
   }
