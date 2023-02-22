@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FifthPageComponent {
   medilix = 'assets/medilix.png';
+  background = 'assets/shapes.png';
 }

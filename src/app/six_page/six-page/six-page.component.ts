@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class SixPageComponent {
   meblit = 'assets/meblito.png';
+  background = 'assets/shapes.png';
 }

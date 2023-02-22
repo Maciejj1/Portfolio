@@ -14,6 +14,8 @@ import { SevenPageComponent } from './seven_page/seven-page/seven-page.component
 import { SixPageComponent } from './six_page/six-page/six-page.component';
 import { TenPageComponent } from './ten_page/ten-page/ten-page.component';
 import { ThirdPageComponent } from './third_page/third-page/third-page.component';
+import { ElevenpageComponent } from './elevenpage/elevenpage/elevenpage.component';
+import { FooterComponent } from './footer/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ThirdPageComponent } from './third_page/third-page/third-page.component
     SevenPageComponent,
     SixPageComponent,
     TenPageComponent,
-    ThirdPageComponent
+    ThirdPageComponent,
+    ElevenpageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

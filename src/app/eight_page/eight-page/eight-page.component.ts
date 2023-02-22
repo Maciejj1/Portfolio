@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class EightPageComponent {
   darkmoon = 'assets/darkmoon.png';
+  background = 'assets/shapes.png';
 }

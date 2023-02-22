@@ -1,0 +1,23 @@
+.footer{
+  display: flex;
+  background: #272232;
+  justify-content: space-between;
+  &_left{
+    margin-left: 10%;
+    &_text{
+color: #F1F1F1;
+      opacity: 0.5;
+    }
+  }
+  &_right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+    &_image{
+      margin-left: 20px;
+      width: 38px;
+      height: 38px;
+    }
+  }
+}
