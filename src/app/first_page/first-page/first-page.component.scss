@@ -49,7 +49,7 @@
 
         }
         &_me{
-          line-height: 0;
+          line-height: 1;
           &_name{
             font-size: 38px;
             color: #F1F1F1;
@@ -59,6 +59,7 @@
           }
         }
         &_description{
+          margin-top: 30px;
 line-height: 1.4;
           width: 55%;
           &_text{
@@ -70,6 +71,8 @@ line-height: 1.4;
           }
         }
         &_links{
+          margin-top: 30px;
+          display: flex;
           &_link{
 
             padding-right: 20px;
@@ -101,6 +104,106 @@ line-height: 1.4;
             border-radius: 17px;
           }
         }
+      }
+    }
+  }
+
+}
+@media only screen and (min-width: 769px) {.m_firstpage{display: none!important;}}
+@media only screen and (max-width: 768px) {
+  .firstpage{
+display: none;
+  }
+  .m_firstpage{
+    height: 100vh;
+    &_container{
+      display: flex;
+      align-items: center;
+      background: #19191f;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+      &_base{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  flex-direction: column;
+        &_leftside{
+          display: flex;
+          width: 70%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          &_title{
+            
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            color: #656D72;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-top: 5px;
+  
+            &_text{
+              
+              width: 100%;
+              text-align: center;
+              line-height: 0.1em;
+              margin: 10px 0 20px;
+              display: flex;
+              flex-direction: row;
+              &_line{
+                display: flex;
+                width: 20px;
+                margin-right: 5px;
+                margin-left: 5px;
+                height: 3px;
+                background-color: #656D72;
+                vertical-align: middle;
+              }
+            }
+  
+  
+          }
+          &_me{
+         
+            line-height: 2;
+            &_name{
+              font-size: 38px;
+              color: #F1F1F1;
+              &_surname{
+              color: #7B4AE2;
+              }
+            }
+          }
+          &_description{
+  line-height: 1.4;
+            width: 70%;
+            text-align: center;
+            &_text{
+              font-size: 26px;
+              color: #F1F1F1;
+              font-weight: 300;
+              opacity: 0.7;
+  
+            }
+          }
+          &_links{
+            margin-top: 40px;
+            display: flex;
+            &_link{
+  
+              padding-right: 20px;
+              img{
+                width: 40px;
+              }
+            }
+          }
+  
+        }
+    
       }
     }
   }
