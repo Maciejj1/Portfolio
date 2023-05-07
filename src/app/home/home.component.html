@@ -1,10 +1,83 @@
-<app-navbar></app-navbar>
-<app-mobilenav></app-mobilenav>
-<app-first-page></app-first-page>
-<app-second-page></app-second-page>
-<app-third-page></app-third-page>
-<app-projects-section></app-projects-section>
-<app-nine-page></app-nine-page>
-<app-ten-page></app-ten-page>
-<app-elevenpage></app-elevenpage>
-<app-footer></app-footer>
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+<app-splash-screen [@fadeOut] *ngIf="isLoading"></app-splash-screen>
+<div *ngIf="!isLoading" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">
+    <div class="navbar">
+        <div class="navbar_container">
+          <div class="navbar_container_logo">
+            <img class="navbar_container_logo_image" [src]="logo"/>
+          </div>
+          <div class="navbar_container_links">
+            <a class="navbar_container_links_link" (click)="scrollToElement('first-page')">Home</a>
+            <a class="navbar_container_links_link" (click)="scrollToElement('third-page')">About</a>
+            <a class="navbar_container_links_link" (click)="scrollToElement('projects-section')">Projects</a>
+            <a class="navbar_container_links_link" (click)="scrollToElement('nine-page')">Skills</a>
+            <a class="navbar_container_links_link" (click)="scrollToElement('ten-page')">Experience</a>
+            <a class="navbar_container_links_link" (click)="scrollToElement('eleven-page')">Contact</a>
+          </div>
+        </div>
+      </div>
+      <header class=" justify-between items-center p-2 mobileNav headers fixed w-100 " style="background-color: #202327; left:0; right: 0; z-index: 10000;" > 
+        <div class="-mr-2 -my-2 md:hidden ">
+            <button type="button" (click)="toggleMobileMenu()"
+            class="rounded-md p-2 h-50 w-full md:hidden bg-blue-500 hamburger-btn" 
+            style="background-color: #202327; color: white; border-color: white;">
+        
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        </div>
+        <div [@openClose]="openCloseTrigger"
+            class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+    
+                <div class="flex items-center justify-between"style="background-color: #202327;">
+                    <button (click)="toggleMobileMenu()" type="button"
+              class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"style="background-color: #202327; color: white; border-color: white;">
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+                </div>
+                <div class="py-6 px-5" style="background-color: #202327;">
+                    <div class="grid gap-4" style="background-color: #202327;">
+                        <a  class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('first-page')">
+                            Home
+                          </a>
+                          <a class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('third-page')">
+                            About
+                          </a>
+                          <a  class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('projects-section')">
+                            Projects
+                          </a>
+                          <a  class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('nine-page')">
+                            Skills
+                          </a>
+                          <a  class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('ten-page')">
+                            Expirience
+                          </a>
+                          <a  class="text-base font-medium text-white hover:text-gray-700" (click)="scrollToElement('eleven-page')">
+                            Contact
+                          </a>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="scroll-section">
+      <app-first-page class="scroll-element visible" id="first-page"></app-first-page>
+      <app-second-page class="scroll-element visible"></app-second-page>
+      <app-third-page class="scroll-element visible" id="third-page"></app-third-page>
+      <app-projects-section class="scroll-element visible" id="projects-section"></app-projects-section>
+      <app-nine-page class="scroll-element visible" id="nine-page"></app-nine-page>
+      <app-ten-page class="scroll-element visible" id="ten-page"></app-ten-page>
+      <app-elevenpage class="scroll-element visible" id="eleven-page"></app-elevenpage>
+      <app-footer></app-footer>
+    </div>
+    
+</div>

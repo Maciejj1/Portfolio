@@ -12,3 +12,7 @@ html {
   min-height: 100%;
   outline: none;
 }
+router-outlet.loading {
+  opacity: 0.5;
+  pointer-events: none;
+}

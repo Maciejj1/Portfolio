@@ -1,8 +1,12 @@
 .footer{
   display: flex;
   background: #272232;
+  height: 70px;
   justify-content: space-between;
   &_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 10%;
     &_text{
 color: #F1F1F1;
@@ -21,3 +25,4 @@ color: #F1F1F1;
     }
   }
 }
+@media only screen and (max-width: 1023px) {.footer{display: none;}}

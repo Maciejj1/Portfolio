@@ -22,7 +22,10 @@ import { EightPageComponent } from './projects/web_projectss/eight_page/eight-pa
 import { SevenPageComponent } from './projects/web_projectss/seven_page/seven-page/seven-page.component';
 import { HomeComponent } from './home/home.component';
 import { MobilenavComponent } from './mobilenav/mobilenav.component';
-
+import { LoaderComponent } from './loader/loader.component';
+import { LoadingScreenDirective } from './loader/loadingscreendirective.directive';
+import { NgxLoadingModule } from 'ngx-loading';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,14 +46,17 @@ import { MobilenavComponent } from './mobilenav/mobilenav.component';
     FlutterProjectsComponent,
     ProjectsSectionComponent,
     HomeComponent,
-    MobilenavComponent
+    MobilenavComponent,
+    LoaderComponent,
+    LoadingScreenDirective,
+    SplashScreenComponent
     
   ],
   imports: [
-
+    NgxLoadingModule.forRoot({}),
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

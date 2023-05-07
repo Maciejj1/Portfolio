@@ -84,6 +84,7 @@ line-height: 1.4;
 
       }
       &_rightside{
+        width: 15%;
         &_image{
           position: relative;
           top: 0;
@@ -98,8 +99,8 @@ line-height: 1.4;
             position: absolute;
             top: -30px;
             background: #7B4AE2;
-            width: 350px;
-            height: 400px;
+            width: 100%;
+            height: 100%;
             left: 30px;
             border-radius: 17px;
           }
@@ -109,19 +110,20 @@ line-height: 1.4;
   }
 
 }
-@media only screen and (min-width: 769px) {.m_firstpage{display: none!important;}}
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1024px) {.m_firstpage{display: none!important;}}
+@media only screen and (max-width: 1023px) {
   .firstpage{
 display: none;
+
   }
   .m_firstpage{
-    height: 100vh;
     &_container{
+      padding-top: 20%;
       display: flex;
       align-items: center;
       background: #19191f;
       width: 100%;
-      height: 100%;
+      height: auto;
       justify-content: center;
       flex-direction: column;
       &_base{
@@ -135,8 +137,16 @@ display: none;
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          &_title{
+          &_image{
+
             
+            &_picture{
+
+            }
+
+          }
+          &_title{
+            text-align: center;
             font-style: normal;
             font-weight: 700;
             font-size: 15px;
@@ -147,7 +157,8 @@ display: none;
             margin-top: 5px;
   
             &_text{
-              
+              text-align: center;
+              align-items: center;
               width: 100%;
               text-align: center;
               line-height: 0.1em;
@@ -171,7 +182,12 @@ display: none;
          
             line-height: 2;
             &_name{
-              font-size: 38px;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              font-size: 32px;
               color: #F1F1F1;
               &_surname{
               color: #7B4AE2;
@@ -180,10 +196,10 @@ display: none;
           }
           &_description{
   line-height: 1.4;
-            width: 70%;
+            width: 100%;
             text-align: center;
             &_text{
-              font-size: 26px;
+              font-size: 22px;
               color: #F1F1F1;
               font-weight: 300;
               opacity: 0.7;
@@ -193,6 +209,8 @@ display: none;
           &_links{
             margin-top: 40px;
             display: flex;
+            justify-content: center;
+            align-items: center;
             &_link{
   
               padding-right: 20px;

@@ -1,26 +1,27 @@
+@media only screen and (min-width: 1024px) {
 .ninepage {
-  &_container {
+
+  &_container {min-height: 100vh;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     background: #19191f;
     width: 100%;
-    height: 100vh;
     justify-content: center;
-    flex-direction: column;
 
     &_base {
+      flex-direction: column;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
 
       &_namepage {
         background: rgba(123, 74, 226, 0.1);
         width: 180px;
         height: 35px;
         border-radius: 15px;
-        margin: 0;
+        margin: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -35,7 +36,8 @@
       }
 
       &_title {
-
+        margin: 20px;
+        font-size: 20px;
         z-index: 2;
         color: #F1F1F1;
         margin: 0;
@@ -43,26 +45,57 @@
       }
 
       &_frontend {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_text{
+          margin: 20px;
+          color: #7B4AE2;
+          font-size: 20px;
+        }
+        flex-direction: column;
 color: #F1F1F1;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
 
         &_icons {
+          flex-wrap: wrap;
+          display: flex;
+    padding: 15px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
 img{
-  padding: 15px;
+padding: 15px;
+
+  max-width: 50%;
 }
         }
       }
 
       &_mobile {
-        color: #F1F1F1;
-        display: flex;
+        
         flex-direction: column;
+        color: #F1F1F1;
+        width: 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
+        &_text{
+          margin: 20px;
+          color: #7B4AE2;
+          font-size: 20px;
+        }
         &_icons{
+          flex-wrap: wrap;
+          display: flex;
+    padding: 15px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
           img{
             padding: 15px;
           }
@@ -71,3 +104,96 @@ img{
     }
   }
 }
+}
+@media only screen and (max-width: 1023px) {.ninepage {
+
+  &_container {height: auto;
+    padding-top: 20%;
+    display: flex;
+    align-items: center;
+    background: #19191f;
+    width: 100%;
+    justify-content: center;
+
+    &_base {
+      flex-direction: column;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &_namepage {
+        background: rgba(123, 74, 226, 0.1);
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_title {
+
+          z-index: 2;
+          color: #7B4AE2;
+          margin: 0;
+
+        }
+      }
+
+      &_title {
+        margin: 20px;
+        font-size: 20px;
+        z-index: 2;
+        color: #F1F1F1;
+        margin: 0;
+
+      }
+
+      &_frontend {
+        &_text{
+          margin: 20px;
+          color: #7B4AE2;
+          font-size: 20px;
+        }
+        flex-direction: column;
+color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_icons {
+          flex-direction: column;
+          display: flex;
+&_img{
+  padding: 15px;
+  width: 100px;
+}
+        }
+      }
+
+      &_mobile {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_text{
+          margin: 20px;
+          color: #7B4AE2;
+          font-size: 20px;
+        }
+        &_icons{
+          display: flex;
+          flex-direction: column;
+          &_img{
+            padding: 15px;
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}}

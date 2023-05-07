@@ -1,2 +1,7 @@
+<app-splash-screen [@fadeOut] *ngIf="isLoading"></app-splash-screen>
+<div *ngIf="!isLoading">
+    <app-navbar></app-navbar>
+<app-mobilenav></app-mobilenav>
 <app-seven-page></app-seven-page>
 <app-eight-page></app-eight-page>
+</div>

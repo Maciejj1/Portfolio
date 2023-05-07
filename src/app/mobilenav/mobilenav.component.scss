@@ -93,8 +93,14 @@
     }
   }
   
-  @media screen and (min-width: 1601px) {
+  @media screen and (min-width: 767px) {
     .mobilenav {
       display: none;
     }
+.mobileNav{
+  display: none;
+}
   }
+@media screen {
+  
+}
