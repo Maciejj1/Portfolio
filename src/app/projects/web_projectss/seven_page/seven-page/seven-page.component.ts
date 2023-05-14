@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class SevenPageComponent {
   lookdog = 'assets/loookatthedog.png';
   background = 'assets/shapes.png';
+  github = 'assets/github.png';
 }

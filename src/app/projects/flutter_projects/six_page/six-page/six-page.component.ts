@@ -10,4 +10,5 @@ export class SixPageComponent {
   background = 'assets/shapes.png';
   googleplay = 'assets/googleplay.png'
   appstore = 'assets/appstore.png'
+  github = 'assets/github.png';
 }

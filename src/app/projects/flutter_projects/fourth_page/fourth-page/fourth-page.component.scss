@@ -13,13 +13,19 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      &_title{
-        padding-top: 60px;
-        &_text{
+      &_title {
+        padding-top: 2%;
+        &_text {
           font-size: 32px;
           color: #F1F1F1;
           margin: 0;
         }
+
+        &_flutter {
+          margin-left: 10px;
+          color: #7B4AE2;
+        }
+      
       }
 
       &_sides {
@@ -83,6 +89,13 @@
           height: 60vh;
           flex-direction: column;
           &_buttons{
+            &_link{
+              margin-left: 20px;
+          
+              img{
+                width: 40px;
+              }
+            }
             display: flex;
             justify-content: center;
             align-items: center;
@@ -178,12 +191,17 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        &_title{
-          padding-top: 60px;
-          &_text{
-            font-size: 32px;
+        &_title {
+          padding-top: 10%;
+          &_text {
+            font-size: 24px;
             color: #F1F1F1;
             margin: 0;
+          }
+  
+          &_flutter {
+            margin-left: 10px;
+            color: #7B4AE2;
           }
         }
   
@@ -195,7 +213,7 @@
   width: 100%;
           &_title {
             &_text {
-              font-size: 32px;
+              font-size: 22px;
               color: #F1F1F1;
               margin: 0;
             }
@@ -240,6 +258,12 @@
             align-items: center;
             flex-direction: column;
             &_buttons{
+              &_link{
+                margin-left: 10px;
+                img{
+                  width: 30px;
+                }
+              }
               display: flex;
               justify-content: center;
               align-items: center;
@@ -290,7 +314,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-                font-size: 30px;
+                font-size: 20px;
                 color: #F1F1F1;
                 margin: 0;
               }
@@ -315,7 +339,7 @@
                   opacity: 0.7;
                   color: #F1F1F1;
                   width: 80%;
-                  font-size: 25px;
+                  font-size: 21px;
                 }
               }
             }

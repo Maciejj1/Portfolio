@@ -187,7 +187,7 @@ display: none;
               justify-content: center;
               align-items: center;
               flex-wrap: wrap;
-              font-size: 32px;
+              font-size: 22px;
               color: #F1F1F1;
               &_surname{
               color: #7B4AE2;
@@ -199,7 +199,7 @@ display: none;
             width: 100%;
             text-align: center;
             &_text{
-              font-size: 22px;
+              font-size: 19px;
               color: #F1F1F1;
               font-weight: 300;
               opacity: 0.7;
@@ -207,15 +207,16 @@ display: none;
             }
           }
           &_links{
-            margin-top: 40px;
+            margin-top: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
             &_link{
   
-              padding-right: 20px;
-              img{
-                width: 40px;
+           
+              img{  margin-left: 10px;
+                margin-right: 10px;
+                width: 30px;
               }
             }
           }
