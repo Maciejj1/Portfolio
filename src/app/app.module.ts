@@ -26,6 +26,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { LoadingScreenDirective } from './loader/loadingscreendirective.directive';
 import { NgxLoadingModule } from 'ngx-loading';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { QuotesComponent } from './projects/web_projectss/quotes/quotes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +50,8 @@ import { SplashScreenComponent } from './splash-screen/splash-screen.component';
     MobilenavComponent,
     LoaderComponent,
     LoadingScreenDirective,
-    SplashScreenComponent
+    SplashScreenComponent,
+    QuotesComponent
     
   ],
   imports: [

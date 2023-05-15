@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./six-page.component.scss'],
 })
 export class SixPageComponent {
-  meblit = 'assets/meblito.png';
+  meblit = 'assets/todo.png';
   background = 'assets/shapes.png';
   googleplay = 'assets/googleplay.png'
   appstore = 'assets/appstore.png'
