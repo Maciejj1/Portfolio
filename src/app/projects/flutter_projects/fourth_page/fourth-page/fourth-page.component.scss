@@ -89,8 +89,12 @@
           height: 60vh;
           flex-direction: column;
           &_buttons{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             &_link{
-              margin-left: 20px;
+              margin-left: 0px;
           
               img{
                 width: 40px;
@@ -259,7 +263,7 @@
             flex-direction: column;
             &_buttons{
               &_link{
-                margin-left: 10px;
+                margin-top: 20px;
                 img{
                   width: 30px;
                 }

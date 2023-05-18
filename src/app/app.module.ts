@@ -27,6 +27,7 @@ import { LoadingScreenDirective } from './loader/loadingscreendirective.directiv
 import { NgxLoadingModule } from 'ngx-loading';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { QuotesComponent } from './projects/web_projectss/quotes/quotes.component';
+import { WhatsappComponent } from './projects/flutter_projects/whatsapp/whatsapp.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,8 @@ import { QuotesComponent } from './projects/web_projectss/quotes/quotes.componen
     LoaderComponent,
     LoadingScreenDirective,
     SplashScreenComponent,
-    QuotesComponent
+    QuotesComponent,
+    WhatsappComponent
     
   ],
   imports: [
