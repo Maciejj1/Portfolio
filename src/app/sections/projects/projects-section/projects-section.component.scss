@@ -42,6 +42,7 @@
                 width: 50%;
                 background-size: 100%;
                 margin-right: 10px;
+                margin-left: 10px;
                 background: rgba(123, 74, 226, 0.1);
                 // filter: blur(5px);
                 height: 100%;
@@ -74,7 +75,7 @@
                             }
                         }
                         &_photo{
-                         
+
                             &_image{
 width: 150px;
                             }
@@ -88,6 +89,7 @@ width: 150px;
                 cursor: pointer;
             }
             &_right{
+              margin-right: 10px;
                  text-decoration: none;
                 background-repeat: no-repeat;
                 background: rgba(123, 74, 226, 0.1);
@@ -133,7 +135,7 @@ width: 150px;
                 opacity: 0.6;
                 cursor: pointer;
             }
-            
+
         }
     }
 }
@@ -158,13 +160,13 @@ width: 150px;
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
             &_title {
-    
+
               z-index: 2;
               color: #7B4AE2;
               margin: 0;
-    
+
             }
           }
             &_base{
@@ -212,7 +214,7 @@ width: 150px;
                                 width: 140px;
                                 padding-top: 2%;
                                 height: 35px;
-    
+
                                 border-radius: 15px;
                                 margin-bottom: 15px;
                                 display: flex;
@@ -225,7 +227,7 @@ width: 150px;
                                 }
                             }
                             &_photo{
-                             
+
                                 &_image{
     width: 100px;
                                 }
@@ -273,7 +275,7 @@ width: 150px;
                                 justify-content: center;
                                 align-items: center;
                                 &_text{
-                                    
+
                                     z-index: 2;
                                     color: #ffffff;
                                     margin: 0;
@@ -292,7 +294,7 @@ width: 150px;
                     opacity: 0.6;
                     cursor: pointer;
                 }
-                
+
             }
         }
     }

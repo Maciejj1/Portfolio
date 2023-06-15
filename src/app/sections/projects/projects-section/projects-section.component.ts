@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ProjectsSectionComponent {
 angular ='assets/angular.png'
+react ='assets/react.png'
 flutter = 'assets/flutter1.png'
 }

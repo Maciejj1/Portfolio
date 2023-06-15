@@ -8,11 +8,13 @@ import { ThirdPageComponent } from './sections/about/third_page/third-page/third
 import { ProjectsSectionComponent } from './sections/projects/projects-section/projects-section.component';
 import { NinePageComponent } from './nine_page/nine-page/nine-page.component';
 import { TenPageComponent } from './ten_page/ten-page/ten-page.component';
+import { ReactComponent } from './projects/react/react.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'flutterprojects', component: FlutterProjectsComponent },
   { path: 'angularprojects', component: WebProjectsComponent },
+  { path: 'reactprojects', component: ReactComponent },
   { path: 'about', component: ThirdPageComponent },
   { path: 'projects', component: ProjectsSectionComponent },
   { path: 'skills', component: NinePageComponent },

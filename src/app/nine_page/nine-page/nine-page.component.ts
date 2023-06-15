@@ -26,4 +26,10 @@ export class NinePageComponent {
   frozen = 'assets/mobile/frozen.png';
   idk = 'assets/mobile/idk.png';
   flutter = 'assets/mobile/flutter.png';
+  tailwind = 'assets/frontend/tail.png';
+  git = 'assets/frontend/git.png';
+  php = 'assets/frontend/php.png';
+  jira = 'assets/frontend/jira.png';
+  vsc = 'assets/frontend/vsc.png';
+  react = 'assets/frontend/react.png';
 }

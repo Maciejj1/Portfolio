@@ -28,6 +28,9 @@ import { NgxLoadingModule } from 'ngx-loading';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { QuotesComponent } from './projects/web_projectss/quotes/quotes.component';
 import { WhatsappComponent } from './projects/flutter_projects/whatsapp/whatsapp.component';
+import { ReactComponent } from './projects/react/react.component';
+import { CounterComponent } from './projects/react/counter/counter.component';
+import { CloudshopComponent } from './projects/react/cloudshop/cloudshop.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,8 +56,12 @@ import { WhatsappComponent } from './projects/flutter_projects/whatsapp/whatsapp
     LoadingScreenDirective,
     SplashScreenComponent,
     QuotesComponent,
-    WhatsappComponent
-    
+    WhatsappComponent,
+    ReactComponent,
+    CounterComponent,
+    CloudshopComponent
+
+
   ],
   imports: [
     NgxLoadingModule.forRoot({}),
