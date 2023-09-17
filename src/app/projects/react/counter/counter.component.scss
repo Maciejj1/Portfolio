@@ -1,12 +1,10 @@
-
-@media only screen and (min-width: 1024px) {.fifthpage{
+@media only screen and (min-width: 1024px) {.fourthpage {
   width: 100%;
   height: 100%;
   &_container{
     display: flex;
     align-items: center;
     background: #19191f;
-    height: 100vh;
     justify-content: center;
     flex-direction: column;
     &_base{
@@ -16,6 +14,7 @@
       align-items: center;
       flex-direction: column;
       &_title {
+        padding-top: 2%;
         &_text {
           font-size: 32px;
           color: #F1F1F1;
@@ -24,8 +23,9 @@
 
         &_flutter {
           margin-left: 10px;
-          color: #7B4AE2;
+          color: #D53032;
         }
+      
       }
 
       &_sides {
@@ -42,7 +42,7 @@
 
           &_flutter {
             margin-left: 10px;
-            color: #7B4AE2;
+            color: #D53032;
           }
         }
 
@@ -51,34 +51,31 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 30%;
 
           &_image {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
-            position: relative;
+        
             top: 0;
             left: 0;
             &_picture {
               z-index: 2;
               position: relative;
-              top: 10px;
+              top: 0px;
               z-index: 2;
               left: 20px;
               width: 100%;
-              max-width: 800px;
-              min-width: 400px;
+              min-width: 500px;
             }
             &_background{
-              z-index: 0;
               position: absolute;
-              top: -233px;
-              width: 100%;
-              height: 90vh;
-              min-width: 82vw;
-              left: -1280px;
+              top: 70px;
+              width: 983px;
+              height: -205px;
+              left: -277px;
             }
           }
 
@@ -88,47 +85,49 @@
           display: flex;
           justify-content: flex-start;
           align-items: flex-start;
-          width: 40%;
-          height: 50vh;
+          width: 60%;
+          height: 60vh;
           flex-direction: column;
-          &_link{
-            z-index: 10000;
-            margin-top: 20px;
-            img{
-              width: 40px;
-              z-index: 10000;
-            }
-          }
-          &_button{
-            z-index: 1;
-            background: rgba(123, 74, 226, 0.1);
-            width: 120px;
-            height: 35px;
-            border-radius: 15px;
+          &_buttons{
             margin-top: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-        cursor: pointer; text-decoration: none;
-    text-decoration: none;
-            &_text {
-              z-index: 2;
-              color: #7B4AE2;
-              margin: 0;
-
+            &_link{
+              margin-left: 0px;
+          
+              img{
+                width: 40px;
+              }
             }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          &_google{
+            cursor: pointer;
+          &_image{
+          width: 200px;
           }
-          &_button:hover{
+          }
+          &_apple{
+            cursor: pointer;
+          &_image{
+            width: 200px;
+          }
+          }
+          &_google:hover{
             opacity: 0.8;
-
-            &_text {
-              z-index: 2;
-              color: #7B4AE2;
-              margin: 0;
-
+            &_image{
+            width: 200px;
+            }
+            }
+            &_apple:hover{
+              opacity: 0.8;
+            &_image{
+              width: 200px;
+            }
             }
           }
-          &
           &_about {
             &_image {
 
@@ -144,17 +143,17 @@
 
           &_name {
             font-weight: 700;
-            margin-top: 10px;
+            margin-top: 0px;
 
             &_text {
 
-              font-size: 38px;
+              font-size: 30px;
               color: #F1F1F1;
               margin: 0;
             }
 
             &_gradient {
-              color: #7B4AE2;
+              color: #D53032;
             }
           }
 
@@ -170,7 +169,7 @@
                 opacity: 0.7;
                 color: #F1F1F1;
                 width: 80%;
-                font-size: 30px;
+                font-size: 25px;
               }
             }
           }
@@ -178,18 +177,16 @@
       }
     }
   }
-}}
+}
+}
 @media only screen and (max-width: 1023px) {
-  .fifthpage{
+  .fourthpage {
     width: 100%;
     height: 100%;
     &_container{
-      padding-top: 20%;
-      padding-bottom: 20%;
       display: flex;
       align-items: center;
       background: #19191f;
-      height: auto;
       justify-content: center;
       flex-direction: column;
       &_base{
@@ -199,119 +196,111 @@
         align-items: center;
         flex-direction: column;
         &_title {
+          padding-top: 10%;
           &_text {
-            font-size: 32px;
+            font-size: 24px;
             color: #F1F1F1;
             margin: 0;
           }
-
+  
           &_flutter {
             margin-left: 10px;
-            color: #7B4AE2;
+            color: #D53032;
           }
         }
-
+  
         &_sides {
           display: flex;
           justify-content: center;
-          flex-direction: column;
           align-items: center;
-
+          flex-direction: column;
+  width: 100%;
           &_title {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
             &_text {
-              font-size: 32px;
+              font-size: 22px;
               color: #F1F1F1;
               margin: 0;
             }
-
+  
             &_flutter {
               margin-left: 10px;
-              color: #7B4AE2;
+              color: #D53032;
             }
           }
-
-
+  
+  
           &_leftside {
             display: flex;
             justify-content: center;
-            flex-direction: column;
             align-items: center;
-            width: 70%;
 
+  
             &_image {
               display: flex;
               justify-content: center;
               align-items: center;
               width: 100%;
-
               &_picture {
-
-              padding-top: 10%;
-
-                z-index: 2;
-
-      width: 350px;
-
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding-right: 20%;
               }
               &_background{
-  display: none;
+              display: none;
               }
             }
-
+  
           }
-
+  
           &_rightside {
             display: flex;
+            text-align: center;
             justify-content: center;
-            flex-direction: column;
             align-items: center;
-            &_link{
-              margin-top: 20px;
-              img{
-                width: 30px;
+            flex-direction: column;
+            &_buttons{
+              &_link{
+                margin-top: 20px;
+                img{
+                  width: 30px;
+                }
               }
-            }
-            &_button{
-
-              background: rgba(123, 74, 226, 0.1);
-              width: 120px;
-              height: 35px;
-              z-index: 1;
-              border-radius: 15px;
-              margin-top: 20px;
               display: flex;
               justify-content: center;
               align-items: center;
-              cursor: pointer; text-decoration: none;
-      text-decoration: none;
-              &_text {
-                z-index: 2;
-                font-size: 14px!important;
-                color: #7B4AE2;
-                margin: 0;
-
-              }
+            &_google{
+              cursor: pointer;
+            &_image{
+            width: 150px;
             }
-            &_button:hover{
+            }
+            &_apple{
+              cursor: pointer;
+            &_image{
+              width: 200px;
+            }
+            }
+            &_google:hover{
               opacity: 0.8;
-              &_text {
-                font-size: 14px;
-                z-index: 2;
-                color: #7B4AE2;
-                margin: 0;
-
+              &_image{
+              width: 200px;
+              }
+              }
+              &_apple:hover{
+                opacity: 0.8;
+              &_image{
+                width: 200px;
+              }
               }
             }
             &_about {
-              font-size: 20px!important;
               &_image {
-
+  
               }
-
+  
               &_text {
                 margin: 0;
                 color: #656D72;
@@ -319,39 +308,42 @@
                 font-weight: 700;
               }
             }
-
+  
             &_name {
               font-weight: 700;
-              margin-top: 10px;
-
+              margin-top: 0px;
+  
               &_text {
-
-                font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+                font-size: 20px;
                 color: #F1F1F1;
                 margin: 0;
               }
-
+  
               &_gradient {
-                color: #7B4AE2;
+                color: #D53032;
               }
             }
-
+  
             &_list {
               &_opinion {
                 display: flex;
+                display: flex;
                 justify-content: center;
-                flex-direction: column;
                 align-items: center;
-                text-align: center;
+                width: 100%;
                 &_image {
-
+  
                 }
-
+  
                 &_text {
                   opacity: 0.7;
                   color: #F1F1F1;
                   width: 80%;
-                  font-size: 20px;
+                  font-size: 21px;
                 }
               }
             }

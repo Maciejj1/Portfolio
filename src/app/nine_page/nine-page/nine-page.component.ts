@@ -31,5 +31,14 @@ export class NinePageComponent {
   php = 'assets/frontend/php.png';
   jira = 'assets/frontend/jira.png';
   vsc = 'assets/frontend/vsc.png';
-  react = 'assets/frontend/react.png';
+  react = 'assets/react2.png';
+
+  webstorm = 'assets/webstorm.png';
+  intelij = 'assets/intelij.png';
+  postman = 'assets/postman.png';
+  spring = 'assets/spring.png';
+  jsf = 'assets/jsf.png';
+  hibernate = 'assets/hibernate.png';
+  java = 'assets/java.png';
+  primefaces = 'assets/prime.png';
 }

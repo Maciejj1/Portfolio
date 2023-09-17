@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cloudshop.component.scss']
 })
 export class CloudshopComponent {
-  lookdog = 'assets/cloudshop.png';
+  mysaving = 'assets/Inicio.png';
   background = 'assets/shapes.png';
   github = 'assets/github.png';
 }

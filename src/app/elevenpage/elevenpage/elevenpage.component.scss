@@ -14,7 +14,7 @@
       align-items: center;
       flex-direction: column;
       &_namepage {
-        background: rgba(123, 74, 226, 0.1);
+        background: rgba(213, 48, 50, 0.1);
         width: 180px;
         height: 35px;
         border-radius: 15px;
@@ -24,7 +24,7 @@
         align-items: center;
         &_title {
           z-index: 2;
-          color: #7B4AE2;
+          color: #D53032;
           margin: 0;
           
         }
@@ -61,13 +61,13 @@ color: #FFFFFF;
             justify-content: flex-start;
             align-items: center;
             border-radius: 20px;
-            border: #7B4AE2 1px solid;
+            border: #D53032 1px solid;
             width: 200px;
             &_image {
             }
 
             &_text {
-color: #7B4AE2;
+color: #D53032;
 
               opacity: 0.5;
             }
@@ -86,7 +86,7 @@ color: #7B4AE2;
           &_title {
             margin: 0px;
             margin-top: 15px;
-            color: #7B4AE2;
+            color: #D53032;
           }
 
           &_text {
@@ -122,7 +122,7 @@ color: #7B4AE2;
         align-items: center;
         flex-direction: column;
         &_namepage {
-          background: rgba(123, 74, 226, 0.1);
+          background: rgba(213, 48, 50, 0.1);
           width: 180px;
           height: 35px;
           border-radius: 15px;
@@ -132,7 +132,7 @@ color: #7B4AE2;
           align-items: center;
           &_title {
             z-index: 2;
-            color: #7B4AE2;
+            color: #D53032;
             margin: 0;
             
           }
@@ -169,14 +169,14 @@ color: #7B4AE2;
               justify-content: flex-start;
               align-items: center;
               border-radius: 20px;
-              border: #7B4AE2 1px solid;
+              border: #D53032 1px solid;
               width: 200px;
               &_image {
   margin-left: 10px;
               }
   
               &_text {
-  color: #7B4AE2;
+  color: #D53032;
   
                 opacity: 0.5;
               }
@@ -196,7 +196,7 @@ color: #7B4AE2;
             &_title {
               margin: 0px;
               margin-top: 15px;
-              color: #7B4AE2;
+              color: #D53032;
             }
   
             &_text {
@@ -229,7 +229,7 @@ color: #7B4AE2;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  border: #7B4AE2 1px solid;
+  border: #D53032 1px solid;
   width: 200px;
 }
 
@@ -244,6 +244,6 @@ color: #7B4AE2;
 
 
 // .elevenpage_container_base_chose_phone_container_text {
-//   color: #7B4AE2;
+//   color: #D53032;
 //   opacity: 0.5;
 // }

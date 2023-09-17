@@ -28,10 +28,10 @@
           align-items: center;
           display: flex;
           flex-direction: column;
-
+          
           &_container {
             border-radius: 10px;
-            border: #7B4AE2 solid 1px;
+            border: #D53032 solid 1px;
             margin-left: 30px;
             width: 100%;
             min-width: 200px;
@@ -67,7 +67,7 @@
             }
 
             &_description {
-              background: #7B4AE2;
+              background: #D53032;
               width: 100%;
               border-radius: 10px;
               text-align: center;
@@ -138,7 +138,7 @@
 
           &_container {
             border-radius: 10px;
-            border: #7B4AE2 solid 1px;
+            border: #D53032 solid 1px;
             margin-left: 30px;
             width: 100%;
             min-width: 200px;
@@ -174,7 +174,7 @@
             }
 
             &_description {
-              background: #7B4AE2;
+              background: #D53032;
               width: 100%;
               border-radius: 10px;
               text-align: center;

@@ -30,7 +30,7 @@
           &_background {
             position: absolute;
             top: -30px;
-            background: #7B4AE2;
+            background: #D53032;
             opacity: 0.2;
             width: 400px;
             height: 400px;
@@ -44,7 +44,7 @@
         width: 50%;
 
         &_about {
-          background: rgba(123, 74, 226, 0.1);
+          background: rgba(213, 48, 50, 0.1);
           width: 120px;
           height: 35px;
           border-radius: 15px;
@@ -59,7 +59,7 @@
 
           &_text {
             z-index: 2;
-            color: #7B4AE2;
+            color: #D53032;
             margin: 0;
           }
         }
@@ -126,7 +126,7 @@ flex-direction: column;
           &_background {
             position: absolute;
             top: 0px;
-            background: #7B4AE2;
+            background: #D53032;
             opacity: 0.2;
             width: 100%;
             height: 80%;
@@ -150,7 +150,7 @@ padding-top: 10%;
           }
 
           &_text {        
-              background: rgba(123, 74, 226, 0.1);
+              background: rgba(213, 48, 50, 0.1);
           width: 120px;
           height: 35px;
           border-radius: 15px;
@@ -164,7 +164,7 @@ flex-direction: column!important;
             justify-content: center;
             align-items: center;
             z-index: 2;
-            color: #7B4AE2;
+            color: #D53032;
             margin: 0;
             }
            

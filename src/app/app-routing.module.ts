@@ -19,9 +19,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsSectionComponent },
   { path: 'skills', component: NinePageComponent },
   { path: 'expirience', component: TenPageComponent },
-  // { path: 'work', component:HowweworkComponent ,  },
-  // { path: 'projects', component: ProjectsComponent,  },
-  // { path: 'contact', component: ContacctComponent,  },
+
 ];
 
 @NgModule({

@@ -11,7 +11,7 @@
         justify-content: center;
 
     &_namepage {
-        background: rgba(123, 74, 226, 0.1);
+        background: rgba(213, 48, 50, 0.1);
         width: 120px;
         height: 35px;
         border-radius: 15px;
@@ -23,7 +23,7 @@
         &_title {
 
           z-index: 2;
-          color: #7B4AE2;
+          color: #D53032;
           margin: 0;
 
         }
@@ -43,7 +43,7 @@
                 background-size: 100%;
                 margin-right: 10px;
                 margin-left: 10px;
-                background: rgba(123, 74, 226, 0.1);
+                background: rgba(213, 48, 50, 0.1);
                 // filter: blur(5px);
                 height: 100%;
                 // background-color: rgba(0, 0, 0 ,0.3);
@@ -59,8 +59,8 @@
                         align-items: center;
                         flex-direction: column;
                         &_title{
-                            background: rgb(29, 29, 29);
-                            width: 140px;
+                            background: #D53032;
+                            width: 160px;
                             height: 35px;
 
                             border-radius: 15px;
@@ -92,7 +92,7 @@ width: 150px;
               margin-right: 10px;
                  text-decoration: none;
                 background-repeat: no-repeat;
-                background: rgba(123, 74, 226, 0.1);
+                background: rgba(213, 48, 50, 0.1);
                 // background-image: url(~src/assets/webAps.png);
                 width: 50%;
                 background-size: 100%;
@@ -108,7 +108,7 @@ width: 150px;
                     align-items: center;
                     flex-direction: column;
                         &_title{
-                            background: rgb(29, 29, 29);
+                            background: #D53032;
                             width: 150px;
                             height: 35px;
                             border-radius: 15px;
@@ -152,7 +152,7 @@ width: 150px;
             justify-content: center;
         height: auto;
         &_namepage {
-            background: rgba(123, 74, 226, 0.1);
+            background: rgba(213, 48, 50, 0.1);
             width: 120px;
             height: 35px;
             border-radius: 15px;
@@ -164,7 +164,7 @@ width: 150px;
             &_title {
 
               z-index: 2;
-              color: #7B4AE2;
+              color: #D53032;
               margin: 0;
 
             }
@@ -188,7 +188,7 @@ width: 150px;
                     // background-image: url(~src/assets/flutterAps1.png);
                     width: 100%;
                     background-size: 100%;
-                    background: rgba(123, 74, 226, 0.1);
+                    background: rgba(213, 48, 50, 0.1);
                     // filter: blur(5px);
                     height: 100%;
                     // background-color: rgba(0, 0, 0 ,0.3);
@@ -210,7 +210,7 @@ width: 150px;
                             align-items: center;
                             flex-direction: column;
                             &_title{
-                                background: rgb(29, 29, 29);
+                                background: #D53032;
                                 width: 140px;
                                 padding-top: 2%;
                                 height: 35px;
@@ -247,7 +247,7 @@ width: 150px;
                     flex-direction: column;
                      text-decoration: none;
                     background-repeat: no-repeat;
-                    background: rgba(123, 74, 226, 0.1);
+                    background: rgba(213, 48, 50, 0.1);
                     // background-image: url(~src/assets/webAps.png);
                     width: 100%;
                     background-size: 100%;
@@ -266,7 +266,7 @@ width: 150px;
                         flex-direction: column;
                             &_title{
                                 margin-top: 20px;
-                                background: rgb(29, 29, 29);
+                                background: #D53032;
                                 width: 150px;
                                 height: 35px;
                                 border-radius: 15px;

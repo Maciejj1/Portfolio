@@ -17,7 +17,7 @@
       align-items: center;
 
       &_namepage {
-        background: rgba(123, 74, 226, 0.1);
+        background: rgba(213, 48, 50, 0.1);
         width: 180px;
         height: 35px;
         border-radius: 15px;
@@ -29,7 +29,7 @@
         &_title {
 
           z-index: 2;
-          color: #7B4AE2;
+          color: #D53032;
           margin: 0;
 
         }
@@ -52,7 +52,7 @@
         align-items: center;
         &_text{
           margin: 20px;
-          color: #7B4AE2;
+          color: #D53032;
           font-size: 20px;
         }
         flex-direction: column;
@@ -86,7 +86,7 @@ padding: 15px;
         align-items: center;
         &_text{
           margin: 20px;
-          color: #7B4AE2;
+          color: #D53032;
           font-size: 20px;
         }
         &_icons{
@@ -98,7 +98,9 @@ padding: 15px;
     align-items: center;
           img{
             padding: 15px;
+            width: 120px;
           }
+
         }
       }
     }
@@ -123,7 +125,7 @@ padding: 15px;
       align-items: center;
 
       &_namepage {
-        background: rgba(123, 74, 226, 0.1);
+        background: rgba(213, 48, 50, 0.1);
         width: 180px;
         height: 35px;
         border-radius: 15px;
@@ -135,7 +137,7 @@ padding: 15px;
         &_title {
 
           z-index: 2;
-          color: #7B4AE2;
+          color: #D53032;
           margin: 0;
 
         }
@@ -153,7 +155,7 @@ padding: 15px;
       &_frontend {
         &_text{
           margin: 20px;
-          color: #7B4AE2;
+          color: #D53032;
           font-size: 20px;
         }
         flex-direction: column;
@@ -182,7 +184,7 @@ color: #F1F1F1;
         align-items: center;
         &_text{
           margin: 20px;
-          color: #7B4AE2;
+          color: #D53032;
           font-size: 20px;
         }
         &_icons{
