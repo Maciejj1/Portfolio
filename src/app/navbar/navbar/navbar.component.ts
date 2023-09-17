@@ -11,5 +11,5 @@ export class NavbarComponent {
     const element = this.el.nativeElement.querySelector('#' + id);
     element.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
-  logo = 'assets/logo.png';
+  logo = 'assets/logo2.png';
 }

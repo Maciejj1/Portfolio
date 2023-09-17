@@ -48,7 +48,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class HomeComponent {
   isLoading = true;
   constructor(private el: ElementRef) {}
-  logo = 'assets/logo.png';
+  logo = 'assets/logo2.png';
 
   scrollToElement(id: string): void {
     const element = this.el.nativeElement.querySelector('#' + id);

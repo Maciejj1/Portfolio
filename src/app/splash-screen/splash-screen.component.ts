@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./splash-screen.component.scss']
 })
 export class SplashScreenComponent {
-logo ='assets/bigLogo.png'
+logo ='assets/bigLogo2.png'
 }
