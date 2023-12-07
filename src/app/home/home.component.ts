@@ -43,12 +43,12 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
       ]),
     ]),
   ]
-  
+
 })
 export class HomeComponent {
   isLoading = true;
   constructor(private el: ElementRef) {}
-  logo = 'assets/logo2.png';
+  logo = 'assets/logo5.png';
 
   scrollToElement(id: string): void {
     const element = this.el.nativeElement.querySelector('#' + id);
@@ -60,12 +60,12 @@ export class HomeComponent {
     }, 3000); // show content after 5 seconds
   }
   mobileMenuOpen: boolean = false;
-  
+
   get openCloseTrigger() {
     return this.mobileMenuOpen ? "open" : "closed";
   }
   toggleMobileMenu() {
     this.mobileMenuOpen = !this.mobileMenuOpen;
   }
-  
+
 }

@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./second-page.component.scss']
 })
 export class SecondPageComponent {
-code = 'assets/Code2.png'
+code = 'assets/CodeIcon.png'
 kanban = 'assets/ProjectsIcon.png'
 }

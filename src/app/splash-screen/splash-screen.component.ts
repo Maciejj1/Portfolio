@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
   selector: 'app-splash-screen',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./splash-screen.component.scss']
 })
 export class SplashScreenComponent {
-logo ='assets/bigLogo2.png'
+logo ='assets/logo3.png'
 }

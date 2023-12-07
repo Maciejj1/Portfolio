@@ -6,39 +6,39 @@
     flex-direction: column;
     background-color: #1e1e1e;
   }
-  
+
   .loading-dots {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .dot {
     width: 12px;
     height: 12px;
     margin: 10px 5px;
     border-radius: 50%;
-    background-color: #D53032;
+    background-color: #2965F1;
     animation: bounce 0.7s ease-in-out infinite;
   }
-  
+
   .dot-1 {
     animation-delay: 0s;
   }
-  
+
   .dot-2 {
     animation-delay: 0.2s;
   }
-  
+
   .dot-3 {
     animation-delay: 0.4s;
   }
-  
+
   .logo {
     width: 100px;
     height: auto;
   }
-  
+
   @keyframes bounce {
     0% {
       transform: translateY(0);
@@ -56,17 +56,17 @@
         height: 7px;
         margin: 0px 2px;
         border-radius: 50%;
-        background-color: #D53032;
+        background-color: #2965F1;
         animation: bounce 0.7s ease-in-out infinite;
       }
       .dot-1 {
         animation-delay: 0s;
       }
-      
+
       .dot-2 {
         animation-delay: 0.2s;
       }
-      
+
       .dot-3 {
         animation-delay: 0.4s;
       }

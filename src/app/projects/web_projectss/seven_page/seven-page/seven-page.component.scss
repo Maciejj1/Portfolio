@@ -9,7 +9,7 @@
     height: 100vh;
     justify-content: center;
     flex-direction: column;
-    
+
     &_base{
       width: 100%;
       display: flex;
@@ -26,7 +26,7 @@
 
         &_flutter {
           margin-left: 10px;
-          color: #D53032;
+          color: #2965F1;
         }
       }
 
@@ -44,7 +44,7 @@
 
           &_flutter {
             margin-left: 10px;
-            color: #D53032;
+            color: #2965F1;
           }
         }
 
@@ -103,12 +103,12 @@
           }
           &_button{
             margin-top: 20px;
-            background: rgba(213, 48, 50, 0.1);
+            background: rgba(48, 64, 213, 0.1);
             width: 120px;
             height: 35px;
             z-index: 1;
             border-radius: 15px;
-           
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -116,18 +116,18 @@
     text-decoration: none;
             &_text {
               z-index: 2;
-              color: #D53032;
+              color: #2965F1;
               margin: 0;
-            
+
             }
           }
           &_button:hover{
             opacity: 0.8;
             &_text {
               z-index: 2;
-              color: #D53032;
+              color: #2965F1;
               margin: 0;
-             
+
             }
           }
           &_about {
@@ -155,7 +155,7 @@
             }
 
             &_gradient {
-              color: #D53032;
+              color: #2965F1;
             }
           }
 
@@ -207,7 +207,7 @@
 
         &_flutter {
           margin-left: 10px;
-          color: #D53032;
+          color: #2965F1;
         }
       }
 
@@ -230,7 +230,7 @@
 
           &_flutter {
             margin-left: 10px;
-            color: #D53032;
+            color: #2965F1;
           }
         }
 
@@ -249,13 +249,13 @@
             width: 100%;
 
             &_picture {
-            
+
             padding-top: 10%;
-              
+
               z-index: 2;
-             
+
     width: 450px;
-           
+
             }
             &_background{
 display: none;
@@ -276,7 +276,7 @@ display: none;
             }
           }
           &_button{
-            background: rgba(213, 48, 50, 0.1);
+            background: rgba(48, 64, 213, 0.1);
             width: 120px;
             height: 35px;
             z-index: 1;
@@ -290,9 +290,9 @@ display: none;
             &_text {
               z-index: 2;
               font-size: 14px!important;
-              color: #D53032;
+              color: #2965F1;
               margin: 0;
-            
+
             }
           }
           &_button:hover{
@@ -300,9 +300,9 @@ display: none;
             &_text {
               font-size: 14px;
               z-index: 2;
-              color: #D53032;
+              color: #2965F1;
               margin: 0;
-             
+
             }
           }
           &_about {
@@ -331,7 +331,7 @@ display: none;
             }
 
             &_gradient {
-              color: #D53032;
+              color: #2965F1;
             }
           }
 

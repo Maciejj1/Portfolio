@@ -24,9 +24,9 @@
 
         &_flutter {
           margin-left: 10px;
-          color: #D53032;
+          color: #2965F1;
         }
-      
+
       }
 
       &_sides {
@@ -43,7 +43,7 @@
 
           &_flutter {
             margin-left: 10px;
-            color: #D53032;
+            color: #2965F1;
           }
         }
 
@@ -59,7 +59,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-        
+
             top: 0;
             left: 0;
             &_picture {
@@ -96,7 +96,7 @@
             align-items: center;
             &_link{
               margin-left: 0px;
-          
+
               img{
                 width: 40px;
               }
@@ -154,7 +154,7 @@
             }
 
             &_gradient {
-              color: #D53032;
+              color: #2965F1;
             }
           }
 
@@ -204,13 +204,13 @@
             color: #F1F1F1;
             margin: 0;
           }
-  
+
           &_flutter {
             margin-left: 10px;
-            color: #D53032;
+            color: #2965F1;
           }
         }
-  
+
         &_sides {
           display: flex;
           justify-content: center;
@@ -223,40 +223,40 @@
               color: #F1F1F1;
               margin: 0;
             }
-  
+
             &_flutter {
               margin-left: 10px;
-              color: #D53032;
+              color: #2965F1;
             }
           }
-  
-  
+
+
           &_leftside {
             display: flex;
             justify-content: center;
             align-items: center;
 
-  
+
             &_image {
               display: flex;
               justify-content: center;
               align-items: center;
               width: 100%;
               &_picture {
-                
+
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 width: 200px;
-               
+
               }
               &_background{
               display: none;
               }
             }
-  
+
           }
-  
+
           &_rightside {
             display: flex;
             text-align: center;
@@ -300,9 +300,9 @@
             }
             &_about {
               &_image {
-  
+
               }
-  
+
               &_text {
                 margin: 0;
                 color: #656D72;
@@ -310,11 +310,11 @@
                 font-weight: 700;
               }
             }
-  
+
             &_name {
               font-weight: 700;
               margin-top: 0px;
-  
+
               &_text {
   display: flex;
   justify-content: center;
@@ -324,12 +324,12 @@
                 color: #F1F1F1;
                 margin: 0;
               }
-  
+
               &_gradient {
-                color: #D53032;
+                color: #2965F1;
               }
             }
-  
+
             &_list {
               &_opinion {
                 display: flex;
@@ -338,9 +338,9 @@
                 align-items: center;
                 width: 100%;
                 &_image {
-  
+
                 }
-  
+
                 &_text {
                   opacity: 0.7;
                   color: #F1F1F1;

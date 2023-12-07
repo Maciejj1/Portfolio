@@ -17,6 +17,7 @@ describe('LoaderComponent', () => {
     fixture.detectChanges();
   });
 
+
   it('should create', () => {
     expect(component).toBeTruthy();
   });
