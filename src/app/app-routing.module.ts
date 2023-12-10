@@ -12,8 +12,8 @@ import { ReactComponent } from './projects/react/react.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'flutterprojects', component: FlutterProjectsComponent },
-  { path: 'angularprojects', component: WebProjectsComponent },
+  { path: 'mobileaplications', component: FlutterProjectsComponent },
+  { path: 'webaplications', component: WebProjectsComponent },
   { path: 'reactprojects', component: ReactComponent },
   { path: 'about', component: ThirdPageComponent },
   { path: 'projects', component: ProjectsSectionComponent },

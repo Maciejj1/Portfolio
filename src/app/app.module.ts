@@ -23,6 +23,7 @@ import { SevenPageComponent } from './projects/web_projectss/seven_page/seven-pa
 import { HomeComponent } from './home/home.component';
 import { MobilenavComponent } from './mobilenav/mobilenav.component';
 import { LoaderComponent } from './loader/loader.component';
+import { LoneNumberPageComponent } from './projects/flutter_projects/lone_number/fourth-page/lone_number.component';
 import { LoadingScreenDirective } from './loader/loadingscreendirective.directive';
 import { NgxLoadingModule } from 'ngx-loading';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
@@ -30,6 +31,9 @@ import { QuotesComponent } from './projects/web_projectss/quotes/quotes.componen
 import { WhatsappComponent } from './projects/flutter_projects/whatsapp/whatsapp.component';
 import { ReactComponent } from './projects/react/react.component';
 import { CloudshopComponent } from './projects/react/cloudshop/cloudshop.component';
+import { WebTenPageComponent } from './projects/web_projectss/ten_page/ten-page/ten-page.component';
+import { WebNinePageComponent } from './projects/web_projectss/nine_page/nine-page/nine-page.component';
+import { WebElevenPageComponent } from './projects/web_projectss/eleven_page/eleven-page/eleven-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +52,7 @@ import { CloudshopComponent } from './projects/react/cloudshop/cloudshop.compone
     FooterComponent,
     WebProjectsComponent,
     FlutterProjectsComponent,
+    LoneNumberPageComponent,
     ProjectsSectionComponent,
     HomeComponent,
     MobilenavComponent,
@@ -57,7 +62,10 @@ import { CloudshopComponent } from './projects/react/cloudshop/cloudshop.compone
     QuotesComponent,
     WhatsappComponent,
     ReactComponent,
-    CloudshopComponent
+    CloudshopComponent,
+    WebTenPageComponent,
+    WebNinePageComponent,
+    WebElevenPageComponent
 
 
   ],
