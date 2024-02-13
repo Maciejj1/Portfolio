@@ -138,7 +138,7 @@
           }
             &__content {
               display: flex;
-              justify-content: center;
+              justify-content: flex-start;
               align-items: center;
               flex-direction: column;
               z-index: 2;
@@ -150,7 +150,7 @@
               height: 40vh;
               position: relative;
               left: 0;
-              padding: 20px 40px;
+              padding: 40px 40px;
               background: rgba(255, 255, 255, 0.05);
               backdrop-filter: blur(10px);
               box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -168,7 +168,7 @@
               }
               p {
                 padding-top: 15px;
-                font-size: 1.1em;
+                font-size: 1.0em;
                 margin-bottom: 10px;
                 line-height: 1.4em;
               }
@@ -342,8 +342,7 @@
               min-height: 200px;
               max-height: 300px;
               width: 40vw;
-              height: 30vh;
-              font-size: 12px;
+              font-size: 12px!important;
               position: relative;
               left: 0;
               padding: 20px 40px;
@@ -364,7 +363,7 @@
               }
               p {
                 padding-top: 15px;
-                font-size: 1.1em;
+                font-size: 1.0em;
                 margin-bottom: 10px;
                 line-height: 1.4em;
               }

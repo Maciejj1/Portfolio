@@ -126,7 +126,7 @@ color: #F1F1F1;
         &_right{
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: flex-start;
           align-items: center;
           width: 100%;
           &_title{
