@@ -1,11 +1,10 @@
 @media only screen and (min-width: 1024px) {
   .projects__section {
     &__container {
-      min-height: 100vh;
-      padding-top: 5%;
+      min-height: 75vh;
       display: flex;
       align-items: center;
-      background: #19191f;
+      background: #ffffff;
       width: 100%;
       flex-direction: column;
       justify-content: center;

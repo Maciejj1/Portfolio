@@ -6,5 +6,5 @@ import { Component,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   styleUrls: ['./splash-screen.component.scss']
 })
 export class SplashScreenComponent {
-logo ='assets/logo3.png'
+logo ='assets/logo.png'
 }

@@ -8,8 +8,11 @@
   &_container{
     display: flex;
     align-items: center;
-    background: #19191f;
-    width: 100%;
+    background: linear-gradient(
+      134.21deg,
+      #01ecfb 1.34%,
+      #8310f5 99.49%
+  );    width: 100%;
     height: 100vh;
     justify-content: center;
     flex-direction: column;
@@ -26,9 +29,9 @@
         flex-direction: column;
         &_title{
           font-style: normal;
-          font-weight: 700;
+          font-weight: 500;
           font-size: 15px;
-          color: #656D72;
+          color: #ffffff;
           justify-content: center;
           align-items: center;
           display: flex;
@@ -46,8 +49,8 @@
               width: 20px;
               margin-right: 5px;
               margin-left: 5px;
-              height: 3px;
-              background-color: #656D72;
+              height: 2px;
+              background-color: #ffffff;
               vertical-align: middle;
             }
           }
@@ -60,7 +63,7 @@
             font-size: 38px;
             color: #F1F1F1;
             &_surname{
-            color: #2965F1;
+            color: #F1F1F1;
             }
           }
         }
@@ -72,7 +75,7 @@ line-height: 1.4;
             font-size: 30px;
             color: #F1F1F1;
             font-weight: 300;
-            opacity: 0.7;
+            opacity: 1;
 
           }
         }
@@ -104,7 +107,7 @@ line-height: 1.4;
           &_background{
             position: absolute;
             top: -30px;
-            background: #2965F1;
+            background: #76acff;
             width: 100%;
             height: 100%;
             left: 30px;
@@ -224,213 +227,5 @@ display: none;
 
       }
     }
-  }
-}
-// .glowing {
-//   position: relative;
-//   min-width: 400px;
-//   transform-origin: right;
-//   animation: colorChange 5s linear infinite;
-// }
-
-// .glowing:nth-child(even) {
-//   transform-origin: left;
-// }
-
-// @keyframes colorChange {
-//   0% {
-//     filter: hue-rotate(0deg);
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     filter: hue-rotate(360deg);
-//     transform: rotate(360deg);
-//   }
-// }
-
-// .glowing span {
-//   position: absolute;
-//   top: calc(80px * var(--i));
-//   left: calc(80px * var(--i));
-//   bottom: calc(80px * var(--i));
-//   right: calc(80px * var(--i));
-// }
-
-// .glowing span::before {
-//   content: "";
-//   position: absolute;
-//   top: 50%;
-//   left: -8px;
-//   width: 15px;
-//   height: 15px;
-//   background: #f00;
-//   border-radius: 50%;
-// }
-
-// .glowing span:nth-child(3n + 1)::before {
-//   background: rgba(134,255,0,1);
-//   box-shadow: 0 0 20px rgba(134,255,0,1),
-//     0 0 40px rgba(134,255,0,1),
-//     0 0 60px rgba(134,255,0,1),
-//     0 0 80px rgba(134,255,0,1),
-//     0 0 0 8px rgba(134,255,0,.1);
-// }
-
-// .glowing span:nth-child(3n + 2)::before {
-//   background: rgba(255,214,0,1);
-//   box-shadow: 0 0 20px rgba(255,214,0,1),
-//     0 0 40px rgba(255,214,0,1),
-//     0 0 60px rgba(255,214,0,1),
-//     0 0 80px rgba(255,214,0,1),
-//     0 0 0 8px rgba(255,214,0,.1);
-// }
-
-// .glowing span:nth-child(3n + 3)::before {
-//   background: rgba(0,226,255,1);
-//   box-shadow: 0 0 20px rgba(0,226,255,1),
-//     0 0 40px rgba(0,226,255,1),
-//     0 0 60px rgba(0,226,255,1),
-//     0 0 80px rgba(0,226,255,1),
-//     0 0 0 8px rgba(0,226,255,.1);
-// }
-
-// .glowing span:nth-child(3n + 1) {
-//   animation: animate 10s alternate infinite;
-// }
-
-// .glowing span:nth-child(3n + 2) {
-//   animation: animate-reverse 3s alternate infinite;
-// }
-
-// .glowing span:nth-child(3n + 3) {
-//   animation: animate 8s alternate infinite;
-// }
-
-// @keyframes animate {
-//   0% {
-//     transform: rotate(180deg);
-//   }
-//   50% {
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }
-
-// @keyframes animate-reverse {
-//   0% {
-//     transform: rotate(360deg);
-//   }
-
-//   50% {
-//     transform: rotate(180deg);
-//   }
-
-//   100% {
-//     transform: rotate(0deg);
-//   }
-// }
-@function random_range($min, $max) {
-  $rand: random();
-  $random_range: $min + floor($rand * (($max - $min) + 1));
-  @return $random_range;
-}
-
-.stars {
-    top: 0;
-    position: absolute;
-    right: 400px;
-    width: 100%;
-    height: 15%;
-    transform: rotate(-90deg);
-    z-index: 0;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    align-content: stretch;
-}
-
-.star {
-  $star-count: 50;
-  --star-color: #0074cc;
-  --star-tail-length: 6em;
-  --star-tail-height: 2px;
-  --star-width: calc(var(--star-tail-length) / 6);
-  --fall-duration: 3s;
-  --tail-fade-duration: var(--fall-duration);
-
-  position: absolute;
-  top: var(--top-offset);
-  left: 0;
-  width: var(--star-tail-length);
-  height: var(--star-tail-height);
-  color: var(--star-color);
-  background: linear-gradient(45deg, currentColor, transparent);
-  border-radius: 50%;
-  filter: drop-shadow(0 0 6px currentColor);
-  transform: translate3d(104em, 0, 0);
-  animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
-
-  @include sp-layout {
-    // For mobile performance, tail-fade animation will be removed QAQ
-    animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
-  }
-
-  @for $i from 1 through $star-count {
-    &:nth-child(#{$i}) {
-      --star-tail-length: #{random_range(500em, 750em) / 100};
-      --top-offset: #{random_range(0vh, 10000vh) / 100};
-      --fall-duration: #{random_range(6000, 12000s) / 1000};
-      --fall-delay: #{random_range(0, 10000s) / 1000};
-    }
-  }
-
-  &::before, &::after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: calc(var(--star-width) / -2);
-    width: var(--star-width);
-    height: 100%;
-    background: linear-gradient(45deg, transparent, currentColor, transparent);
-    border-radius: inherit;
-    animation: blink 2s linear infinite;
-  }
-
-  &::before {
-    transform: rotate(45deg);
-  }
-
-  &::after {
-    transform: rotate(-45deg);
-  }
-}
-
-@keyframes fall {
-  to {
-    transform: translate3d(-30em, 0, 0);
-  }
-}
-
-@keyframes tail-fade {
-  0%, 50% {
-    width: var(--star-tail-length);
-    opacity: 1;
-  }
-
-  70%, 80% {
-    width: 0;
-    opacity: 0.4;
-  }
-
-  100% {
-    width: 0;
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0.6;
   }
 }

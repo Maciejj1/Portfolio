@@ -1,6 +1,6 @@
 .footer{
   display: flex;
-  background: #2965F1;
+  background: #ffffff;
   height: 70px;
   justify-content: space-between;
   &_left{
@@ -9,7 +9,7 @@
     align-items: center;
     margin-left: 10%;
     &_text{
-color: #ffffff;
+color: #565656;
       opacity: 1;
     }
   }
