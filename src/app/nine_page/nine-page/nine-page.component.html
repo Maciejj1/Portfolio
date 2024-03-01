@@ -1,140 +1,90 @@
 <div class="ninepage">
-  <div class="ninepage_container">
-    <div class="ninepage_container_base">
-      <div class="ninepage_container_base_namepage">
-        <p class="ninepage_container_base_namepage_title">🧑‍💻 Skills · Expirience</p>
-      </div>
-      <div class="ninepage_container_base_mobile">
-        <h2 class="ninepage_container_base_mobile_text">Mobile Stack</h2>
-        <div class="ninepage_container_base_mobile_icons" style="flex-direction: column;">
-          <div style="display: flex; justify-content: center; align-items: center;  ">
-            <div class="ninepage_container_base_mobile_icons_container">
-                          <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Flutter</p>
+    <div class="ninepage_container">
+        <div class="ninepage_container_base">
+            <div class="ninepage_container_base_namepage">
+                <p class="ninepage_container_base_namepage_title">🧑‍💻 Skills</p>
             </div>
-            
-            <div style="display: flex; justify-content: center; align-items: flex-start;">
-              <div class="ninepage_container_base_mobile_icons_container">
-                <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">BLOC</p>
-  </div>            <div class="ninepage_container_base_mobile_icons_container">
-    <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Dependency Injection</p>
-</div>            <div class="ninepage_container_base_mobile_icons_container">
-  <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Freezed</p>
-</div>
-<div class="ninepage_container_base_mobile_icons_container">
 
-<p class="ninepage_container_base_mobile_icons_container_title">SOLID</p>
-  </div>            <div class="ninepage_container_base_mobile_icons_container">
-    <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Unit tests</p>
-</div>            <div class="ninepage_container_base_mobile_icons_container">
-  <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Retrofit</p>
-</div>
-<div class="ninepage_container_base_mobile_icons_container">
+            <div
+                class="knowledge-dialog"
+                *ngIf="showKnowledge"
+                (click)="closeDialog($event)"
+            >
+                <div class="knowledge-dialog-content">
+                    <div class="close-button-container">
+                        <button class="close-button" (click)="closeDialog()">
+                            <img [src]="close" alt="Close Icon" />
+                        </button>
+                    </div>
 
-<p class="ninepage_container_base_mobile_icons_container_title">Firebase</p>
-  </div>            <div class="ninepage_container_base_mobile_icons_container">
-    <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Rest Api</p>
-</div>            <div class="ninepage_container_base_mobile_icons_container">
-  <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Stripe</p>
-</div>
-<div class="ninepage_container_base_mobile_icons_container">
+                    <div class="image-container">
+                        <img
+                            [src]="selectedLanguage?.image"
+                            class="language-image"
+                        />
+                        <p
+                            [style.color]="selectedLanguage?.color"
+                            class="language-title"
+                        >
+                            {{ selectedLanguage?.name }}
+                        </p>
+                    </div>
 
-<p class="ninepage_container_base_mobile_icons_container_title">SDK</p>
-  </div>            <div class="ninepage_container_base_mobile_icons_container">
-    <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Monetization</p>
-</div>            <div class="ninepage_container_base_mobile_icons_container">
-  <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Google Play</p>
-</div>
-<div class="ninepage_container_base_mobile_icons_container">
+                    <div class="knowledge-container">
+                        <p class="knowledge-heading">What I know</p>
+                        <ul class="knowledge-list">
+                            <li
+                                *ngFor="
+                                    let knowledge of selectedLanguage?.knowledge
+                                "
+                            >
+                                {{ knowledge }}
+                            </li>
+                        </ul>
+                    </div>
 
-<p class="ninepage_container_base_mobile_icons_container_title">App Store</p>
-  </div>            <div class="ninepage_container_base_mobile_icons_container">
-    <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">TDD</p>
-</div>            <div class="ninepage_container_base_mobile_icons_container">
-  <img [src]="flutter" class="ninepage_container_base_mobile_icons_container_img"/>
-<p class="ninepage_container_base_mobile_icons_container_title">Mason</p>
-</div>
-              <!-- <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 0;">
-          
-                <li style="margin: 5px;">BLOC</li>
-                <li style="margin: 5px;">Dependency Injection</li>
-                <li style="margin: 5px;">Freezed</li>
-                <li style="margin: 5px;">SOLID</li>
-                <li style="margin: 5px;">Unit tests</li>
-                <li style="margin: 5px;">Retrofit</li>
-                <li style="margin: 5px;">Firebase</li>
-                <li style="margin: 5px;">Rest Api</li>
-                <li style="margin: 5px;">Stripe</li>
-                <li style="margin: 5px;">SDK</li>
-                <li style="margin: 5px;">Monetization</li>
-                <li style="margin: 5px;">Google Play</li>
-                <li style="margin: 5px;">App Store</li>
-                <li style="margin: 5px;">TDD</li>
-                <li style="margin: 5px;">Mason</li>
-          
-              </ul>
-              <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 0;">
-
-              </ul> -->
+                    <div class="dev-tools-container">
+                        <p class="dev-tools-heading">Dev Tools:</p>
+                        <ul class="dev-tools-list">
+                            <li
+                                *ngFor="
+                                    let devTool of selectedLanguage?.devTools
+                                "
+                            >
+                                {{ devTool }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="ninepage_container_base_mobile_icons_container">
-          
-            <img [src]="react" class="ninepage_container_base_frontend_icons_container_img"/>
+
+            <div class="ninepage_container_base_mobile">
+                <h3 class="ninepage_container_base_mobile_text">
+                    Languages I Speak
+                </h3>
+                <div class="ninepage_container_base_mobile_container">
+                    <div
+                        *ngFor="let language of languages"
+                        class="ninepage_container_base_mobile_icons_container"
+                    >
+                        <img
+                            [src]="language.image"
+                            class="ninepage_container_base_mobile_icons_container_img"
+                        />
+                        <p
+                            class="ninepage_container_base_mobile_icons_container_title"
+                        >
+                            {{ language.name }}
+                        </p>
+                        <button
+                            class="show-knowledge-button"
+                            (click)="toggleKnowledge(language)"
+                        >
+                            Show Knowledge
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div style="display: flex; justify-content: center; align-items: flex-start; flex-direction: column;">
-              <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 0;">
-
-                <li style="margin: 5px;">Angular</li>
-                <li style="margin: 5px;">Typescript</li>
-                <li style="margin: 5px;">Rest Api</li>
-                <li style="margin: 5px;">Responsive Design</li>          
-              </ul>
-              <ul style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 0;">
-
-              </ul>
-            </div> 
-          </div>
-          </div>
-          
-      </div>
-      <div class="ninepage_container_base_frontend">
-        <h2 class="ninepage_container_base_frontend_text">Other Stack</h2>
-        <div class="ninepage_container_base_frontend_icons">
-          <img [src]="angular"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="ts"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="sass" class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="tailwind"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="bootstrap"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="figma"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="firebase"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="primefaces"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="jsf"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="java"class="ninepage_container_base_frontend_icons_img"/>
-          <img [src]="postman"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="gitlab"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="github"class="ninepage_container_base_frontend_icons_img"/>
-          
-          <img [src]="jira"class="ninepage_container_base_frontend_icons_img"/>
-
-          <img [src]="git"class="ninepage_container_base_frontend_icons_img"/>
         </div>
-      </div>
-
     </div>
-  </div>
 </div>

@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NinePageComponent } from './nine-page.component';
+import { FlashtaskerPageComponent } from './flashtasker-page.component';
 
-describe('NinePageComponent', () => {
-    let component: NinePageComponent;
-    let fixture: ComponentFixture<NinePageComponent>;
+describe('FlashtaskerPageComponent', () => {
+    let component: FlashtaskerPageComponent;
+    let fixture: ComponentFixture<FlashtaskerPageComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [NinePageComponent]
+            declarations: [FlashtaskerPageComponent]
         }).compileComponents();
 
-        fixture = TestBed.createComponent(NinePageComponent);
+        fixture = TestBed.createComponent(FlashtaskerPageComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

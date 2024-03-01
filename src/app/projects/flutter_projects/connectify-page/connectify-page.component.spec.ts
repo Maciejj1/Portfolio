@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NinePageComponent } from './nine-page.component';
+import { ConnectifyPageComponent } from './connectify-page.component';
 
-describe('NinePageComponent', () => {
-    let component: NinePageComponent;
-    let fixture: ComponentFixture<NinePageComponent>;
+describe('ConnectifyPageComponent', () => {
+    let component: ConnectifyPageComponent;
+    let fixture: ComponentFixture<ConnectifyPageComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [NinePageComponent]
+            declarations: [ConnectifyPageComponent]
         }).compileComponents();
 
-        fixture = TestBed.createComponent(NinePageComponent);
+        fixture = TestBed.createComponent(ConnectifyPageComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

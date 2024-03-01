@@ -1,251 +1,251 @@
 .elevenpage {
-  &_container {
-    display: flex;
-    align-items: center;
-    background: linear-gradient(
-      134.21deg,
-      #01ecfb 1.34%,
-      #8310f5 99.49%
-  );
-    width: 100%;
-    height: 50vh;
-    justify-content: center;
-    flex-direction: column;
-    &_base {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      &_namepage {
-        background: rgba(48, 64, 213, 0.1);
-        width: 180px;
-        height: 35px;
-        border-radius: 15px;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &_title {
-          z-index: 2;
-          color: #2965F1;
-          margin: 0;
-
-        }
-      }
-
-      &_title {
-        margin-top: 20px;
-        &_text {
-
-font-style: normal;
-font-weight: 800;
-font-size: 32px;
-line-height: 56px;
-text-align: center;
-
-color: #FFFFFF;
-          z-index: 2;
-          color: #F1F1F1;
-          margin: 0;
-        }
-      }
-
-      &_chose {
-        padding-top: 2%;
-        display: flex;
-        justify-content: space-around;
-        &_phone {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          &_container {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            border-radius: 20px;
-            border: #2965F1 1px solid;
-            width: 200px;
-            &_image {
-            }
-
-            &_text {
-color: #2965F1;
-
-              opacity: 0.5;
-            }
-          }
-        }
-
-        &_mail {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-left: 30px;
-          &_image {
-          }
-
-          &_title {
-            margin: 0px;
-            margin-top: 15px;
-            color: #2965F1;
-          }
-
-          &_text {
-            color: #F1F1F1;
-            opacity: 0.5;
-          }
-          &_button{
-          outline: none;
-            border: none;
-            background: transparent;
-          }
-        }
-      }
-    }
-  }
-}
-@media only screen and (max-width: 768px) {
-  .elevenpage {
     &_container {
-      display: flex;
-      align-items: center;
-      background: #19191f;
-      width: 100%;
-      padding-top: 10%;
-      padding-bottom: 10%;
-      height: auto;
-      justify-content: center;
-      flex-direction: column;
-      &_base {
-        width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        background: linear-gradient(134.21deg, #01ecfb 1.34%, #8310f5 99.49%);
+        width: 100%;
+        height: 40vh;
+        justify-content: center;
         flex-direction: column;
-        &_namepage {
-          background: rgba(48, 64, 213, 0.1);
-          width: 180px;
-          height: 35px;
-          border-radius: 15px;
-          margin: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          &_title {
-            z-index: 2;
-            color: #2965F1;
-            margin: 0;
-
-          }
-        }
-
-        &_title {
-          margin-top: 20px;
-          &_text {
-
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 56px;
-  text-align: center;
-
-  color: #FFFFFF;
-            z-index: 2;
-            color: #F1F1F1;
-            margin: 0;
-          }
-        }
-
-        &_chose {
-          flex-direction: column;
-          padding-top: 2%;
-          display: flex;
-          justify-content: space-around;
-          &_phone {
+        &_base {
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            &_container {
-              display: flex;
-              justify-content: flex-start;
-              align-items: center;
-              border-radius: 20px;
-              border: #2965F1 1px solid;
-              width: 200px;
-              &_image {
-  margin-left: 10px;
-              }
-
-              &_text {
-  color: #2965F1;
-
-                opacity: 0.5;
-              }
-            }
-          }
-
-          &_mail {
-            display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          margin: 0;
-          padding-top: 10%;
-            &_image {
+            &_namepage {
+                background: rgba(255, 255, 255, 0.1);
+                width: 180px;
+                height: 35px;
+                border-radius: 15px;
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &_title {
+                    z-index: 2;
+                    color: #ffffff;
+                    margin: 0;
+                }
             }
 
             &_title {
-              margin: 0px;
-              margin-top: 15px;
-              color: #2965F1;
+                margin-top: 20px;
+                &_text {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 32px;
+                    line-height: 56px;
+                    text-align: center;
+
+                    color: #ffffff;
+                    z-index: 2;
+                    color: #f1f1f1;
+                    margin: 0;
+                }
             }
 
-            &_text {
-              color: #F1F1F1;
-              opacity: 0.5;
+            &_chose {
+                padding-top: 2%;
+                display: flex;
+                justify-content: space-around;
+                &_phone {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &_container {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        border-radius: 20px;
+                        border: #ffffff 1px solid;
+                        width: 200px;
+                        &_image {
+                        }
+
+                        &_text {
+                            color: #ffffff;
+
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                &_mail {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 30px;
+                    &_image {
+                    }
+
+                    &_title {
+                        margin: 0px;
+                        margin-top: 15px;
+                        color: #ffffff;
+                    }
+
+                    &_text {
+                        color: #f1f1f1;
+                        opacity: 1;
+                    }
+                    &_button {
+                        outline: none;
+                        border: none;
+                        background: transparent;
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
             }
-            &_button{
-            outline: none;
-              border: none;
-              background: transparent;
-            }
-          }
         }
-      }
     }
-  }
 }
-.elevenpage_container_base_chose_phone_container:hover .elevenpage_container_base_chose_phone_container_text {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+@media only screen and (max-width: 768px) {
+    .elevenpage {
+        &_container {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(
+                134.21deg,
+                #01ecfb 1.34%,
+                #8310f5 99.49%
+            );
+            width: 100%;
+            padding-top: 5%;
+            padding-bottom: 10%;
+            height: auto;
+            justify-content: center;
+            flex-direction: column;
+            &_base {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                &_namepage {
+                    background: rgba(255, 255, 255, 0.1);
+                    width: 180px;
+                    height: 35px;
+                    border-radius: 15px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &_title {
+                        z-index: 2;
+                        color: #ffffff;
+                        margin: 0;
+                    }
+                }
+
+                &_title {
+                    &_text {
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 25px;
+                        line-height: 56px;
+                        text-align: center;
+
+                        color: #ffffff;
+                        z-index: 2;
+                        color: #f1f1f1;
+                        margin: 0;
+                    }
+                }
+
+                &_chose {
+                    flex-direction: column;
+                    padding-top: 2%;
+                    display: flex;
+                    justify-content: space-around;
+                    &_phone {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &_container {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            border-radius: 20px;
+                            border: #ffffff 1px solid;
+                            width: 200px;
+                            &_image {
+                                margin-left: 10px;
+                            }
+
+                            &_text {
+                                color: #ffffff;
+
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+
+                    &_mail {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0;
+                        padding-top: 10%;
+                        &_image {
+                        }
+
+                        &_title {
+                            margin: 0px;
+                            margin-top: 15px;
+                            color: #ffffff;
+                        }
+
+                        &_text {
+                            color: #f1f1f1;
+                            opacity: 0.5;
+                        }
+                        &_button {
+                            outline: none;
+                            border: none;
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.elevenpage_container_base_chose_phone_container:hover
+    .elevenpage_container_base_chose_phone_container_text {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 .elevenpage_container_base_chose_phone {
-  padding-top: 2%;
-  display: flex;
-  justify-content: space-around;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .elevenpage_container_base_chose_phone_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  border: #2965F1 1px solid;
-  width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: #ffffff 1px solid;
+    width: 200px;
 }
 
 .elevenpage_container_base_chose_phone_container:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-.elevenpage_container_base_chose_phone_container:hover .elevenpage_container_base_chose_phone_container_text {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+.elevenpage_container_base_chose_phone_container:hover
+    .elevenpage_container_base_chose_phone_container_text {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
-
 
 // .elevenpage_container_base_chose_phone_container_text {
 //   color: #2965F1;

@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-whatsapp',
-  templateUrl: './whatsapp.component.html',
-  styleUrls: ['../../../../styles.scss'],
+    selector: 'app-whatsapp',
+    templateUrl: './whatsapp.component.html',
+    styleUrls: ['../../../../styles2.scss']
 })
 export class WhatsappComponent {
-  meblit = 'assets/mobile_apps/mymusic.png';
-  background = 'assets/shapes.png';
-  googleplay = 'assets/googleplay.png'
-  appstore = 'assets/appstore.png'
-  github = 'assets/github.png';
+    meblit = 'assets/mobile_apps/mymusic.png';
+    background = 'assets/shapes.png';
+    googleplay = 'assets/googleplay.png';
+    appstore = 'assets/appstore.png';
+    github = 'assets/github.png';
 
     //contstructed
 

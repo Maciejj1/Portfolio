@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-fourth-page',
-    templateUrl: './fourth-page.component.html',
-    styleUrls: ['../../../../../styles.scss']
+    selector: 'app-connectify-page',
+    templateUrl: './connectify-page.component.html',
+    styleUrls: ['../../../../styles.scss']
 })
-export class FourthPageComponent {
-    mysaving = 'assets/mobile_apps/mysaving.png';
-    mslogo = 'assets/mobile_apps/ms-logo.png';
+export class ConnectifyPageComponent {
+    mysaving = 'assets/mobile_apps/connectify.png';
+    mslogo = 'assets/mobile_apps/connectify-logo.png';
     background = 'assets/shapes.png';
     googleplay = 'assets/mobile_apps/Google-Play.png';
     appstore = 'assets/mobile_apps/App-Store.png';

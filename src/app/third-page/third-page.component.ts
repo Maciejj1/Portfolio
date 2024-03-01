@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-third-page',
-  templateUrl: './third-page.component.html',
-  styleUrls: ['./third-page.component.scss'],
+    selector: 'app-third-page',
+    templateUrl: './third-page.component.html',
+    styleUrls: ['./third-page.component.scss']
 })
 export class ThirdPageComponent {
-  profile = 'assets/profile2.png';
+    profile = 'assets/profile2.png';
 }

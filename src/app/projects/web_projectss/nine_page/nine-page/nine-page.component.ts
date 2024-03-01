@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-web-nine-page',
-  templateUrl: './nine-page.component.html',
-  styleUrls: ['../../../../../styles.scss'],})
+    selector: 'app-web-nine-page',
+    templateUrl: './nine-page.component.html',
+    styleUrls: ['../../../../../styles2.scss']
+})
 export class WebNinePageComponent {
-  lookdog = 'assets/cryptologic.png';
-  background = 'assets/shapes.png';
-  github = 'assets/github.png';
+    lookdog = 'assets/cryptologic.png';
+    background = 'assets/shapes.png';
+    github = 'assets/github.png';
 
     //contstructed
 

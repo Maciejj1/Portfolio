@@ -16,10 +16,19 @@
           </div>
         </div>
         <div class="elevenpage_container_base_chose_mail">
-          <img class="elevenpage_container_base_chose_mail_image" [src]="plane"/>
+          <button class="elevenpage_container_base_chose_mail_button" style="background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    height: 50px;
+    display: flex;
+    width: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;" (click)="openEmail()">
+          <img [src]="plane"/>
+          </button>
           <p class="elevenpage_container_base_chose_mail_title">Email:</p>
           <p class="elevenpage_container_base_chose_mail_text">maciek.w200111@gmail.com</p>
-          <button class="elevenpage_container_base_chose_mail_button"><img [src]="copy"/> </button>
+
         </div>
       </div>
 

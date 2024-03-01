@@ -28,42 +28,44 @@ import { WhatsappComponent } from './projects/flutter_projects/whatsapp/whatsapp
 import { WebTenPageComponent } from './projects/web_projectss/ten_page/ten-page/ten-page.component';
 import { WebNinePageComponent } from './projects/web_projectss/nine_page/nine-page/nine-page.component';
 import { WebElevenPageComponent } from './projects/web_projectss/eleven_page/eleven-page/eleven-page.component';
+import { ConnectifyPageComponent } from './projects/flutter_projects/connectify-page/connectify-page.component';
+import { FlashtaskerPageComponent } from './projects/flutter_projects/flashtasker-page/flashtasker-page.component';
 @NgModule({
-  declarations: [
-    AppComponent,
-    FirstPageComponent,
-    EightPageComponent,
-    FourthPageComponent,
-    NinePageComponent,
-    SecondPageComponent,
-    SevenPageComponent,
-    SixPageComponent,
-    TenPageComponent,
-    ThirdPageComponent,
-    ElevenpageComponent,
-    FooterComponent,
-    WebProjectsComponent,
-    FlutterProjectsComponent,
-    LoneNumberPageComponent,
-    ProjectsSectionComponent,
-    HomeComponent,
-    MobilenavComponent,
-    SplashScreenComponent,
-    QuotesComponent,
-    WhatsappComponent,
-    WebTenPageComponent,
-    WebNinePageComponent,
-    WebElevenPageComponent
-
-
-  ],
-  imports: [
-    NgxLoadingModule.forRoot({}),
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        FirstPageComponent,
+        EightPageComponent,
+        FourthPageComponent,
+        ConnectifyPageComponent,
+        FlashtaskerPageComponent,
+        NinePageComponent,
+        SecondPageComponent,
+        SevenPageComponent,
+        SixPageComponent,
+        TenPageComponent,
+        ThirdPageComponent,
+        ElevenpageComponent,
+        FooterComponent,
+        WebProjectsComponent,
+        FlutterProjectsComponent,
+        LoneNumberPageComponent,
+        ProjectsSectionComponent,
+        HomeComponent,
+        MobilenavComponent,
+        SplashScreenComponent,
+        QuotesComponent,
+        WhatsappComponent,
+        WebTenPageComponent,
+        WebNinePageComponent,
+        WebElevenPageComponent
+    ],
+    imports: [
+        NgxLoadingModule.forRoot({}),
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

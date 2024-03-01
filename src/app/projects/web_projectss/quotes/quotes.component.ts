@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-quotes',
-  templateUrl: './quotes.component.html',
-  styleUrls: ['../../../../styles.scss'],})
+    selector: 'app-quotes',
+    templateUrl: './quotes.component.html',
+    styleUrls: ['../../../../styles.scss']
+})
 export class QuotesComponent {
-  lookdog = 'assets/quotes.png';
-  background = 'assets/shapes.png';
-  github = 'assets/github.png';
+    lookdog = 'assets/quotes.png';
+    background = 'assets/shapes.png';
+    github = 'assets/github.png';
 
     //contstructed
 
