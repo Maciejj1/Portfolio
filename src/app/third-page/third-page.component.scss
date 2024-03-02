@@ -140,7 +140,7 @@
                     &_about {
                         display: flex;
                         justify-content: center;
-                        align-items: center;
+                        align-items: start;
                         width: 100%;
                         background: transparent !important;
                         &_image {
@@ -185,7 +185,7 @@
                         text-align: start;
                         display: flex;
                         justify-content: center;
-                        align-items: center;
+                        align-items: start;
                         flex-direction: column;
                         &_opinion {
                             padding-top: 2.5%;
