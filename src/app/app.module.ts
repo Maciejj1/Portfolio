@@ -30,11 +30,13 @@ import { WebNinePageComponent } from './projects/web_projectss/nine_page/nine-pa
 import { WebElevenPageComponent } from './projects/web_projectss/eleven_page/eleven-page/eleven-page.component';
 import { ConnectifyPageComponent } from './projects/flutter_projects/connectify-page/connectify-page.component';
 import { FlashtaskerPageComponent } from './projects/flutter_projects/flashtasker-page/flashtasker-page.component';
+import { TaskPulsePageComponent } from './projects/flutter_projects/taskpulse-page/taskpulse-page.component';
 @NgModule({
     declarations: [
         AppComponent,
         FirstPageComponent,
         EightPageComponent,
+        TaskPulsePageComponent,
         FourthPageComponent,
         ConnectifyPageComponent,
         FlashtaskerPageComponent,
