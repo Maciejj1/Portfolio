@@ -247,14 +247,20 @@ router-outlet.loading {
                                 align-items: center;
                                 &_items {
                                     display: flex;
-                                    justify-content: center;
-                                    align-items: center;
+                                    justify-content: flex-start;
+                                    align-items: flex-start;
+                                    flex-wrap: wrap;
                                     &_image {
                                         margin-left: 5px;
                                         width: 30px;
                                         height: 30px;
                                     }
                                     &_text {
+                                        margin-left: 5px;
+                                    }
+                                    &_title {
+                                        text-align: start;
+
                                         margin-left: 5px;
                                     }
                                 }
@@ -587,6 +593,7 @@ router-outlet.loading {
                                 &_items {
                                     display: flex;
                                     justify-content: center;
+                                    flex-wrap: wrap;
                                     align-items: center;
                                     &_image {
                                         margin-top: 5px;
@@ -594,6 +601,10 @@ router-outlet.loading {
                                         height: 30px;
                                     }
                                     &_text {
+                                        margin-left: 5px;
+                                    }
+                                    &_title {
+                                        text-align: start;
                                         margin-left: 5px;
                                     }
                                 }

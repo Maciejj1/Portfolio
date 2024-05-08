@@ -31,6 +31,7 @@ import { WebElevenPageComponent } from './projects/web_projectss/eleven_page/ele
 import { ConnectifyPageComponent } from './projects/flutter_projects/connectify-page/connectify-page.component';
 import { FlashtaskerPageComponent } from './projects/flutter_projects/flashtasker-page/flashtasker-page.component';
 import { TaskPulsePageComponent } from './projects/flutter_projects/taskpulse-page/taskpulse-page.component';
+import { TicTacToePageComponent } from './projects/flutter_projects/tictactoe/tictactoe-page.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -59,7 +60,8 @@ import { TaskPulsePageComponent } from './projects/flutter_projects/taskpulse-pa
         WhatsappComponent,
         WebTenPageComponent,
         WebNinePageComponent,
-        WebElevenPageComponent
+        WebElevenPageComponent,
+        TicTacToePageComponent
     ],
     imports: [
         NgxLoadingModule.forRoot({}),

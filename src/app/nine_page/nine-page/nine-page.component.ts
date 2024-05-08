@@ -53,15 +53,21 @@ export class NinePageComponent {
     flutter = 'assets/flutter.png';
     react = 'assets/react2.png';
     close = 'assets/close.png';
+    laravel = 'assets/new/php-logo-1.png';
+    swift = 'assets/new/swift-icon.png';
     languages: Language[] = [
         {
             name: 'Flutter',
             image: this.flutter,
-            color: '#45D1FD', // Kolor dla Flutter
+            color: '#45D1FD',
             knowledge: [
                 'SOLID',
                 'Clean code',
                 'BLoC',
+                'Provider',
+                'MVC',
+                'MVVM',
+                'MVP',
                 'Rest Api',
                 'Dependency Injection',
                 'Freezed',
@@ -72,6 +78,10 @@ export class NinePageComponent {
                 'Firebase',
                 'Stripe',
                 'SDK',
+                'Dio',
+                'GetIT',
+                'Flutter Local Notifications',
+                'WebView',
                 'Monetization',
                 'Publish on Google Play',
                 'Publish on App Store',
@@ -83,6 +93,7 @@ export class NinePageComponent {
                 'Flutter Inspector',
                 'Github',
                 'Git',
+                'GitLab',
                 'Trello',
                 'Jira'
             ]
@@ -90,13 +101,16 @@ export class NinePageComponent {
         {
             name: 'Ionic',
             image: this.react,
-            color: '#3880FF', // Kolor dla Ionic
+            color: '#3880FF',
             knowledge: [
                 'UI Design',
                 'Components',
                 'Angular Basics',
                 'Sass',
                 'CSS',
+                'Capacitor',
+                'SOLID',
+                'Ionic CLI',
                 'Responsive Design',
                 'REST API',
                 'Cordova'
@@ -106,14 +120,28 @@ export class NinePageComponent {
                 'VS Code',
                 'Github',
                 'Git',
+                'Chrome DevTools',
                 'Trello',
                 'Jira'
             ]
         },
         {
+            name: 'Swift',
+            image: this.swift,
+            color: '#FF4B2B',
+            knowledge: [
+                'iOS Development',
+                'SwiftUI',
+                'UIKit',
+                'Xcode',
+                'REST API'
+            ],
+            devTools: ['Xcode', 'Github', 'Git', 'Trello', 'Jira']
+        },
+        {
             name: 'Android',
             image: this.android,
-            color: '#AAC148', // Kolor dla Android
+            color: '#AAC148',
             knowledge: [
                 'XML',
                 'Java Basics',
@@ -134,12 +162,16 @@ export class NinePageComponent {
         {
             name: 'Angular',
             image: this.angular,
-            color: '#E23237', // Kolor dla Angular
+            color: '#E23237',
             knowledge: [
                 'Components',
                 'Routing',
                 'Forms',
                 'Angular Basics',
+                'Angular Material',
+                'Bootstrap',
+                'Tailwind',
+                'Firebase',
                 'Sass',
                 'CSS',
                 'Responsive Design',
@@ -154,8 +186,30 @@ export class NinePageComponent {
                 'Trello',
                 'Jira'
             ]
+        },
+        {
+            name: 'PHP',
+            image: this.laravel,
+            color: '#8892BF',
+            knowledge: [
+                'Server-side scripting',
+                'Web Development',
+                'Composer',
+                'Blade',
+                'Laravel',
+                'Symfony',
+                'REST API'
+            ],
+            devTools: [
+                'VS Code',
+                'Sublime Text',
+                'Github',
+                'Git',
+                'Postman',
+                'Trello',
+                'Jira'
+            ]
         }
-        // Dodaj pozostałe języki tutaj
     ];
 
     toggleKnowledge(language: Language) {

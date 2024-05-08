@@ -31,7 +31,7 @@
             }
 
             &_title {
-                margin-top: 20px;
+                margin-top: 10px;
                 &_text {
                     font-style: normal;
                     font-weight: 800;
@@ -54,7 +54,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
+                    flex-direction: column;
                     &_container {
                         display: flex;
                         justify-content: flex-start;
@@ -90,7 +90,6 @@
 
                     &_text {
                         color: #f1f1f1;
-                        opacity: 1;
                     }
                     &_button {
                         outline: none;
@@ -166,6 +165,7 @@
                     &_phone {
                         display: flex;
                         justify-content: center;
+                        flex-direction: column;
                         align-items: center;
                         &_container {
                             display: flex;
@@ -180,8 +180,6 @@
 
                             &_text {
                                 color: #ffffff;
-
-                                opacity: 0.5;
                             }
                         }
                     }
@@ -204,7 +202,6 @@
 
                         &_text {
                             color: #f1f1f1;
-                            opacity: 0.5;
                         }
                         &_button {
                             outline: none;

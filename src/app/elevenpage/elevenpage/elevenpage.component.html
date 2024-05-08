@@ -2,16 +2,19 @@
   <div class="elevenpage_container">
     <div class="elevenpage_container_base">
       <div class="elevenpage_container_base_namepage">
-        <p class="elevenpage_container_base_namepage_title">📬 Connectivity</p>
+        <p class="elevenpage_container_base_namepage_title">📬 Contact</p>
       </div>
       <div class="elevenpage_container_base_title">
         <h1 class="elevenpage_container_base_title_text">Let's talk!</h1>
       </div>
       <div class="elevenpage_container_base_chose">
 
-        <div class="elevenpage_container_base_chose_phone">
+        <div class="elevenpage_container_base_chose_phone"> <p class="elevenpage_container_base_chose_mail_title">Click to view!</p>
           <div class="elevenpage_container_base_chose_phone_container">
+                             
+
             <img class="elevenpage_container_base_chose_phone_container_image" [src]="call"/>
+            
             <p class="elevenpage_container_base_chose_phone_container_text" (mouseover)="onMouseOver()">Lets talk!</p>
           </div>
         </div>
@@ -27,7 +30,7 @@
           <img [src]="plane"/>
           </button>
           <p class="elevenpage_container_base_chose_mail_title">Email:</p>
-          <p class="elevenpage_container_base_chose_mail_text">maciek.w200111@gmail.com</p>
+          <p class="elevenpage_container_base_chose_mail_text" (click)="openEmail()">maciek.w200111@gmail.com</p>
 
         </div>
       </div>
